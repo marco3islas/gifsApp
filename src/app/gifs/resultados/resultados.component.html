@@ -1,0 +1,9 @@
+
+  <div class="resultado">
+    <div class="imagen animate__animated animate__zoomIn animate_faster" *ngFor="let item of resultados">
+     <img [src]="item.images.fixed_height.url" [alt]="item.title"> 
+      <span>
+        {{ item.title }}
+      </span>
+    </div>
+  </div>

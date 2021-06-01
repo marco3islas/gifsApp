@@ -1,0 +1,18 @@
+.resultado{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.resultado .imagen{
+   max-width: 300px;
+   width: 100%;
+   padding: 10px;
+}
+.resultado .imagen img{
+   border-radius: 8px;
+    width: 100%;
+}
+.imagen{
+    display: flex;
+    flex-direction: column;
+}
